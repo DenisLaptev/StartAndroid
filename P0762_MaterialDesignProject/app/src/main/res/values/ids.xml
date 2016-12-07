@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toolbar" type="id">12</item>
+    <item name="viewpager" type="id">13</item>
+    <item name="tabs" type="id">14</item>
+</resources>

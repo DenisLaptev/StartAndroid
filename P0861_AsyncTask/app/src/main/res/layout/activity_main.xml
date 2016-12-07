@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llId"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!--По нажатию кнопки будем стартовать задачу.-->
+    <Button
+        android:id="@+id/btnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="@string/start">
+    </Button>
+
+    <!--ProgressBar покажет, что приложение не "висит" во время выполнения.-->
+    <ProgressBar
+        android:id="@+id/pbId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <!--в TextView будем выводить информацию.-->
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="">
+    </TextView>
+</LinearLayout>

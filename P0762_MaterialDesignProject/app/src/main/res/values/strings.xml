@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P0762_MaterialDesignProject</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">TextOne</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Верхние кнопки стартуют/останавливают
+запись звука с микрофона в AudioRecorder,
+нижние – чтение данных из AudioRecorder в наш буфер.-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll0Id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/ll1Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnRecStartId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="recordStart"
+            android:text="@string/start_record">
+        </Button>
+        <Button
+            android:id="@+id/btnRecStopId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="recordStop"
+            android:text="@string/stop_record">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnReadStartId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="readStart"
+            android:text="@string/start_read">
+        </Button>
+        <Button
+            android:id="@+id/btnReadStopId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="readStop"
+            android:text="@string/stop_read">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

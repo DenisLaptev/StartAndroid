@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Меняем размеры объекта ширина*высота=(0.1,0.1)->(1.0,1,0).
+Точка, относительно которой будет проводиться масштабирование,
+лежит по середине объекта (pivotX, pivotY).
+Продолжительность 3 с.-->
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromXScale="0.1"
+    android:fromYScale="0.1"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toXScale="1.0"
+    android:toYScale="1.0">
+</scale>

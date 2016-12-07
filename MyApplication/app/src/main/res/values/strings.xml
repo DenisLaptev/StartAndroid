@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="push_info_1">Нажата кнопка 1</string>
+    <string name="push_info_2">Нажата кнопка 2</string>
+    <string name="push_info_3">Нажата кнопка 3</string>
+    <string name="textButton">4</string>
+    <string name="initial_text">initial text</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <!--Текст для отображения времени.-->
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium">
+    </TextView>
+    <RadioGroup
+        android:id="@+id/rgTimeFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTime">
+
+        <!--выбор формата: короткий и длинный.-->
+        <RadioButton
+            android:id="@+id/rdShort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/format_short">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rdLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/format_long">
+        </RadioButton>
+    </RadioGroup>
+
+    <!--кнопка получения времени.-->
+    <Button
+        android:id="@+id/btnGetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rgTimeFormat"
+        android:onClick="getTimeClick"
+        android:text="@string/get_time">
+    </Button>
+
+    <!--кнопка для работы с Observer-ом,
+    который мы попробуем прикрутить к лоадеру.-->
+    <Button
+        android:id="@+id/btnObserver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGetTime"
+        android:onClick="observerClick"
+        android:text="@string/observer">
+    </Button>
+</RelativeLayout>

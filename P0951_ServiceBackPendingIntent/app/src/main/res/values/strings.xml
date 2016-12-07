@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P0951_ServiceBackPendingIntent</string>
+
+    <string name="start">Start</string>
+</resources>

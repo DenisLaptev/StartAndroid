@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleActivityResult</string>
+    <string name="textView_nameIs">Your name is</string>
+    <string name="button_name">Input name</string>
+</resources>
